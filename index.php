@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Unit 06. Функции в PHP Вторая ветка.</h1>
+    <h1>Unit 06. Функции в PHP. BRUNCH solving</h1>
     <h2><a href="https://itgid.info/course/php" target="_blank">PHP Практический. Stage 2 - курс Лущенко
             Александра</a></h2>
     <section>
