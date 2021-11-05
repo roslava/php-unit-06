@@ -3,48 +3,49 @@
 function t1($a, $b)
 {
     global $out1;
-    // тут ваш код
+    $out1 = $a + $b;
     echo $out1;
 }
 
 function t2($a, $b)
 {
-    // тут ваш код
-    //   return
+    return $a + $b;
+
 }
 
 function t3($a, $b)
 {
-    // тут ваш код
-    //   return
+    return $a * $b;
 }
 
 function t4($str)
 {
-    // тут ваш код
-    //   return
+    return trim($str);
 }
 
 function t5($a)
 {
-    // тут ваш код
-    //   return
+    if ($a % 2 == 0) {
+        return true;
+    }
+    return false;
 }
 
 function t6($a)
 {
-    // тут ваш код
-    //   return
+    if (mb_strlen($a) >= 6) {
+        return 1;
+    }
+    return 0;
 }
 
 function t7($a)
 {
-    // тут ваш код
-    //   return
+    return date("Y") - $a;
 }
 
 function t8($s)
 {
-    // тут ваш код
-    //   return
+    $s = preg_replace('/\s+/', '_', $s);
+    return date("Y") . " " ."&copy;" . " " . $s;
 }
